@@ -7,7 +7,6 @@
 
 <body>
     <div class="container">
-        <!-- Create an element to display the calculation. -->
         <input class="js-calculation input-text-style" readonly>
         
         <div class="button-row">
@@ -74,14 +73,9 @@
                   ">.</button>
         
             <button onclick="
-                    // Note: eval() takes a string and runs it as code.
-                    // Avoid using eval() in real world projects since
-                    // it can potentially be given harmful code to run.
-                    // Only use eval() for learning purposes.
+                   
                     calculation = eval(calculation);
             
-                    // Display the calculation on the page
-                    // instead of console.log
                     displayCalculation();
             
                     localStorage.setItem('calculation', calculation);
@@ -96,8 +90,6 @@
             <button onclick="
                     calculation = '';
             
-                    // Display the calculation on the page
-                    // instead of console.log
                     displayCalculation();
             
                     localStorage.setItem('calculation', calculation);
@@ -107,5 +99,6 @@
 
     <script src="Script.js"></script>
 </body>
+
 
 </html>
