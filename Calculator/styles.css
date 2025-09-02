@@ -1,0 +1,58 @@
+body {
+    background-color: grey;
+}
+
+button {
+    border: none;
+    background-color: rgb(244, 175, 47);
+    color: white;
+    margin-right: 7px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: opacity 0.3 ease, transform 0.3 ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    width: 290px;
+    height: 50px;
+}
+
+.container {
+    border-radius: 30px;
+    width: 370px;
+    margin: 0 auto;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.button-row {
+    text-align: center;
+}
+
+.clear-row {
+    text-align: left;
+    margin-left: 45px;
+}
+
+.input-text-style {
+    font-size: 40px;
+}
